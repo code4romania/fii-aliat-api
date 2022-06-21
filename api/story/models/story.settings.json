@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stories",
+  "info": {
+    "name": "story",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "published_at"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "occupation": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,14 +1,12 @@
-# Project name
+# Fii aliat API
 
 [![GitHub contributors][ico-contributors]][link-contributors]
 [![GitHub last commit][ico-last-commit]][link-last-commit]
 [![License: MPL 2.0][ico-license]][link-license]
 
-Insert bullets description of the project if available.
-
 [See the project live][link-production]
 
-Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+This platform is our way to send condolences to those who lost a loved one because of Covid-19 and to invite Romania to have an exercise of collective mourning in which for a few minutes we can be all together.
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code for Romania](#about-code-for-romania)
 
@@ -21,30 +19,36 @@ Help us out by testing this project in the [staging environment][link-staging]. 
 If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements.
 
 ## Built With
+Strapi
 
 ### Programming languages
-
-### Platforms
-
-### Frontend framework
+Javascript
 
 ### Package managers
+Yarn
 
 ### Database technology & provider
+Postgress
 
 ## Repos and projects
-
-Mention all related repos and projects.
+Client application available [here](https://github.com/code4romania/fii-aliat-client).
 
 ## Deployment
+Dockerfile on k8 <3
 
 Guide users through getting your code up and running on their own system. In this section you can talk about:
 1. Installation process
-2. Software dependencies
-3. Latest releases
-4. API references
+Make sure you have [nvm](https://github.com/nvm-sh/nvm) for right node version. Make your own `.env` file.
+```
+$ npm i -g yarn
+$ yarn install
+$ yarn build
+$ yarn start
 
-Describe and show how to build your code and run the tests.
+$ yarn build --cache
+```
+2. Software dependencies
+Node & Yarn
 
 ## Feedback
 
@@ -64,17 +68,17 @@ Started in 2016, Code for Romania is a civic tech NGO, official member of the Co
 Last, but not least, we rely on donations to ensure the infrastructure, logistics and management of our community that is widely spread across 11 timezones, coding for social change to make Romania and the world a better place. If you want to support us, [you can do it here][link-donate].
 
 
-[ico-contributors]: https://img.shields.io/github/contributors/code4romania/standard-repo-template.svg?style=for-the-badge
-[ico-last-commit]: https://img.shields.io/github/last-commit/code4romania/standard-repo-template.svg?style=for-the-badge
+[ico-contributors]: https://img.shields.io/github/contributors/code4romania/fii-aliat-api.svg?style=for-the-badge
+[ico-last-commit]: https://img.shields.io/github/last-commit/code4romania/fii-aliat-api.svg?style=for-the-badge
 [ico-license]: https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge
 
-[link-contributors]: https://github.com/code4romania/standard-repo-template/graphs/contributors
-[link-last-commit]: https://github.com/code4romania/standard-repo-template/commits/main
+[link-contributors]: https://github.com/code4romania/fii-aliat-api/graphs/contributors
+[link-last-commit]: https://github.com/code4romania/fii-aliat-api/commits/main
 [link-license]: https://opensource.org/licenses/MPL-2.0
 [link-contributing]: https://github.com/code4romania/.github/blob/main/CONTRIBUTING.md
 
-[link-production]: insert_link_here
-[link-staging]: insert_link_here
+[link-production]: http://vietipierdute.ro/
+[link-staging]: https://vieti-pierdute.vercel.app/
 
 [link-code4]: https://www.code4.ro/en/
 [link-donate]: https://code4.ro/en/donate/

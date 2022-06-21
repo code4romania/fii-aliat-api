@@ -1,0 +1,59 @@
+{
+  "name": "fii-aliat-api",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "knex": "0.21.18",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.4.0",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-middleware-cache": "^2.1.5",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-import-export-content": "^0.4.1",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8"
+  },
+  "author": {
+    "name": "Code for Romania / https://github.com/code4romania/fii-aliat-api/graphs/contributors"
+  },
+  "strapi": {
+    "uuid": "4b70e062-227a-4c44-b865-9cd45198c254"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      ".tmp",
+      ".cache"
+    ],
+    "testEnvironment": "node",
+    "testRunner": "jest-jasmine2"
+  }
+}
