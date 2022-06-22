@@ -1,3 +1,3 @@
 module.exports = () => ({
-  url: 'https://api.vietipierdute.ro/',
+  url: 'https://api.fiialiat.ro/',
 });

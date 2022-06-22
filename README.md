@@ -77,8 +77,8 @@ Last, but not least, we rely on donations to ensure the infrastructure, logistic
 [link-license]: https://opensource.org/licenses/MPL-2.0
 [link-contributing]: https://github.com/code4romania/.github/blob/main/CONTRIBUTING.md
 
-[link-production]: http://vietipierdute.ro/
-[link-staging]: https://vieti-pierdute.vercel.app/
+[link-production]: http://fiialiat.ro/
+[link-staging]: https://fii-aliat.vercel.app/
 
 [link-code4]: https://www.code4.ro/en/
 [link-donate]: https://code4.ro/en/donate/
