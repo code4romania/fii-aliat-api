@@ -19,15 +19,15 @@
       "type": "string",
       "required": true
     },
-    "age": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext",
       "required": true
     },
     "name": {
       "type": "string"
+    },
+    "age": {
+      "type": "integer"
     }
   }
 }
