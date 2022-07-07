@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/counter",
+      "handler": "counter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/counter/increment",
+      "handler": "counter.increment",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/counter",
+      "handler": "counter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/counter",
+      "handler": "counter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

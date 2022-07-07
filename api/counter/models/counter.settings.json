@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "counters",
+  "info": {
+    "name": "Counter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "count": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    }
+  }
+}
