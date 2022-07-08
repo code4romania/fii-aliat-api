@@ -18,7 +18,7 @@ module.exports = {
     const isHome = entities.map(({slug})=>slug).includes('home');
     if (isHome) {
       const counter = await strapi.services.counter.find();
-      count = counter.count;
+      count = counter?.count || 0;
     }
 
     return entities.map((entity) => {
